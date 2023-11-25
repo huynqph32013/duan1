@@ -291,6 +291,11 @@ if(!isset($_SESSION['myhd'])) $_SESSION['myhd']=[];
                 nhanhang($_GET['iddh']);
                 header('location: ?act=donhang');
               }
+              break;
+            }
+            case 'about':{
+              include 'blog/gioithieu.php';
+              break;
             }
 
 
